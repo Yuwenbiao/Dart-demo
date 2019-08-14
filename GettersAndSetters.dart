@@ -1,0 +1,6 @@
+class Spacecraft {
+  // ...
+  DateTime launchDate;
+  int get launchYear => launchDate?.year;
+  // ...
+}
